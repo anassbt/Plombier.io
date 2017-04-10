@@ -1,0 +1,70 @@
+body {
+  background-color: lightblue;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: aquamarine;
+}
+
+h1 {
+  text-align: right;
+  width: 60%;
+  display: inline-block;
+}
+
+header h2 {
+  text-align: right;
+  width: 58%;
+  display: inline-block;
+}
+
+header img {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 180px;
+  height: 185px;
+}
+
+footer {
+  background-color: blue;
+}
+
+.MenuHeader {
+  border-style: solid;
+}
+.MenuHeader ul{
+  display: inline-block;
+}
+.Menu li {
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  border: 1px solid black;
+  padding: 10px;
+  margin: 10px;
+}
+
+
+.bas li {
+  display: inline;
+}
+
+footer p {
+  font-size: 10px
+}
+
+aside {
+  background-color: grey;
+  display: inline-block;
+  width: 50%;
+  height: 70%;
+}
+
+main {
+  display: inline-block;
+  width: 49%;
+  background-color: coral;
+}
