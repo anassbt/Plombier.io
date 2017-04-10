@@ -5,6 +5,11 @@ body {
 }
 header {
   background-color: aquamarine;
+  font-family: 'Press Start 2P', cursive;
+}
+
+body {
+  font-family: 'Oxygen', sans-serif;
 }
 
 h1 {
@@ -43,20 +48,18 @@ footer {
   text-align: center;
   background-color: red;
   border: 1px solid black;
-  padding: 10px;
-  margin: 10px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 10px 10px 5px #656565;
 }
 
-.bas li {
-  display: inline;
-}
 
 footer p {
   font-size: 10px
+  font-family: 'Concert One';
 }
 
 aside {
-  background-color: grey;
   display: inline-block;
   width: 50%;
   height: 70%;
@@ -65,7 +68,7 @@ aside {
 main {
   display: inline-block;
   width: 49%;
-  background-color: coral;
+  top: 0;
 }
 
 table, th, td {
@@ -75,6 +78,10 @@ table, th, td {
 
 table {
   display: inline-block;
+}
+
+.Reassurance {
+  width: 50%;
 }
 
 .Reparation {
@@ -89,6 +96,14 @@ table {
   display: inline-block;
 }
 
+.Plombier1 {
+  width: 400px;
+}
+
+.Plombier2 {
+  width: 400px;
+}
+
 .RemplacementsTable {
   display: inline-block;
   width: 50%;
@@ -101,4 +116,18 @@ table {
 .InstallationsTable {
   display: inline-block;
   width: 50%;
+}
+
+.coordonnees {
+  display: inline-block;
+}
+
+.Main2 {
+  position: relative;
+}
+
+.contact {
+  display: inline-block;
+  top: 0;
+  position: relative;
 }
